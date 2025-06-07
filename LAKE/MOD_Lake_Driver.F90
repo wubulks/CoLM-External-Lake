@@ -299,7 +299,7 @@ CONTAINS
 
       z0m = lkz0m(i)
 
-   END SUBROUTINE Lake_Interface
+   END SUBROUTINE external_lake
 
 
 
