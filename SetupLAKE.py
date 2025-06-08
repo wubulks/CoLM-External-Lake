@@ -4,7 +4,7 @@ import argparse
 
 
 argparser = argparse.ArgumentParser(description='Setup LAKE in CoLM')
-argparser.add_argument('-CoLMPath', type=str, help='Path to the CoLM directory', required=True)
+argparser.add_argument('-CoLM', type=str, help='Path to the CoLM directory', required=True)
 args = argparser.parse_args()
 
 CoLMPath = args.CoLMPath
