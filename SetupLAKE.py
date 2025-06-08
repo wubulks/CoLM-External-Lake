@@ -82,6 +82,6 @@ with open(f'{CoLMPath}/Makefile', 'r') as file:
 with open(f'{CoLMPath}/Makefile', 'w') as file:
     file.writelines(newlines)
 
-print(" *** Successfully Setup LAKE in CoLM ***")
+print(" *** Successfully Setup External-Lake in CoLM ***")
 
         
